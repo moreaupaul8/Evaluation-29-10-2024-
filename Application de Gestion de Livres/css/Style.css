@@ -1,0 +1,28 @@
+.Bookcontainer {
+    min-height: 100vh; /* Prend au moins la hauteur de la fenêtre */
+    background: linear-gradient(to bottom, #28a745, #17a2b8); /* Dégradé du vert au bleu */
+}
+body {
+    overflow-x: hidden; /* Enlève la barre de défilement horizontale */
+}
+.Bookcontainer{
+    padding-top: 3%;/*  espacment */
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Aligne verticalement */
+
+}
+
+.searchBar input[type=text] {
+    padding: 10px;/* espacment*/
+    border: none; /* pas de bordure */
+    font-size: 17px; /* taille de la police */
+    width: 100%; /* Ajuste la largeur de la barre de recherche */
+    border-radius: 20px; /* Bord arrondi à gauche */
+    outline: none; /* Retire l'effet de focus par défaut */
+    border: 1px solid #7a7979;
+}
+
